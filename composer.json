@@ -1,0 +1,17 @@
+{
+    "name": "jk_we/mcp-poc",
+    "require": {
+        "php-mcp/server": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jakeb-k",
+            "email": "jknow30@outlook.com"
+        }
+    ]
+}
