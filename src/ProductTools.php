@@ -14,7 +14,7 @@ class ProductTools
     public function fetchProducts(): array
     {
         file_put_contents('mcp_debug.log', 'Tool called at '.date('c')."\n", FILE_APPEND);
-        $apiUrl = 'https://picklewear.test/api/v1/products'; // or whatever your local endpoint is
+        $apiUrl = 'https://picklewear.test/api/v1/products'; 
 
         $json = @file_get_contents($apiUrl);
 
