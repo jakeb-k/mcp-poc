@@ -1,0 +1,13 @@
+{
+    "product_fields": {
+      "name": "required, string, max 100",
+      "type": "required, array, min 1",
+      "category": "required, array, min 1",
+      "url": "required",
+      "delivery_date": "required, numeric",
+      "price": "required, numeric, min 0",
+      "discount": "nullable, numeric, min 0, max 100",
+      "description": "required"
+    }
+  }
+  
